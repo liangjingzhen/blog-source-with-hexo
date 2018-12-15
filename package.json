@@ -1,7 +1,16 @@
 {
-  "name": "XiaoL",
+  "name": "liangjingzhen.github.io",
   "version": "0.0.1",
   "private": true,
+  "scripts": {
+    "clean": "hexo clean",
+    "dev": "hexo server",
+    "draft": "hexo draft",
+    "publish draft": "hexo draft",
+    "build": "hexo generate",
+    "build-watch": "hexo generate --watch",
+    "build-deploy": "hexo deploy --generate"
+  },
   "hexo": {
     "version": "3.8.0"
   },
@@ -22,7 +31,8 @@
   "author": "Liang Jingzhen",
   "license": "MIT",
   "devDependencies": {
-    "cz-conventional-changelog": "^2.1.0"
+    "cz-conventional-changelog": "^2.1.0",
+    "hexo-deployer-git": "^0.3.1"
   },
   "config": {
     "commitizen": {
